@@ -50,7 +50,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tqp-g9-qvq" customClass="CustomUIButton" customModule="Day01" customModuleProvider="target">
-                                <rect key="frame" x="75.5" y="355" width="224" height="112"/>
+                                <rect key="frame" x="76" y="355" width="223" height="112"/>
                                 <state key="normal" title="Exercise 2"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
@@ -68,7 +68,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XPj-tM-G4q" customClass="CustomUIButton" customModule="Day01" customModuleProvider="target">
-                                <rect key="frame" x="75" y="221.5" width="224" height="112"/>
+                                <rect key="frame" x="76" y="222.5" width="222" height="111"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="XPj-tM-G4q" secondAttribute="height" multiplier="2:1" id="Os0-K1-CaF"/>
                                 </constraints>
@@ -89,7 +89,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w9o-0N-BpC" customClass="CustomUIButton" customModule="Day01" customModuleProvider="target">
-                                <rect key="frame" x="76" y="489" width="222.5" height="111.5"/>
+                                <rect key="frame" x="76" y="488.5" width="223" height="112"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="w9o-0N-BpC" secondAttribute="height" multiplier="2:1" id="BFX-Q1-osb"/>
                                     <constraint firstAttribute="height" priority="999" constant="111.66666666666669" id="IMb-4V-6Vy"/>
@@ -140,6 +140,7 @@
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
+                                <exclude reference="AwM-1c-VfQ"/>
                                 <exclude reference="rBu-Km-b2o"/>
                                 <exclude reference="mYF-fd-gJB"/>
                                 <exclude reference="pfG-mc-W7g"/>
@@ -147,7 +148,6 @@
                                 <exclude reference="W4k-mn-D79"/>
                                 <exclude reference="rDN-Fq-VJx"/>
                                 <exclude reference="rNv-KV-Acm"/>
-                                <exclude reference="AwM-1c-VfQ"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=compact">
@@ -395,8 +395,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mRv-cY-Xqa" customClass="CustomUIButton" customModule="Day01" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="611.5" width="187.5" height="55.5"/>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mRv-cY-Xqa">
+                                <rect key="frame" x="0.0" y="600.5" width="187.5" height="66.5"/>
                                 <color key="backgroundColor" red="0.16470588235294117" green="0.17254901960784313" blue="0.19607843137254902" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="mRv-cY-Xqa" secondAttribute="height" multiplier="4:1" id="ytV-OM-ZgK"/>
@@ -411,168 +411,168 @@
                                     </mask>
                                 </variation>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qLS-J0-wRB" customClass="CustomUIButton" customModule="Day01" customModuleProvider="target">
-                                <rect key="frame" x="187.5" y="611.5" width="94" height="55.5"/>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qLS-J0-wRB">
+                                <rect key="frame" x="187.5" y="600.5" width="94" height="66.5"/>
                                 <color key="backgroundColor" red="0.16470588235294117" green="0.17254901960784313" blue="0.19607843137254902" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title=".">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AqD-by-2m9" customClass="CustomUIButton" customModule="Day01" customModuleProvider="target">
-                                <rect key="frame" x="281.5" y="556" width="93.5" height="111"/>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AqD-by-2m9">
+                                <rect key="frame" x="281.5" y="534.5" width="93.5" height="132.5"/>
                                 <color key="backgroundColor" red="0.83137254901960778" green="0.23921568627450979" blue="0.19607843137254902" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="=">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QgV-eM-U7O" customClass="CustomUIButton" customModule="Day01" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="556" width="94" height="55.5"/>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QgV-eM-U7O">
+                                <rect key="frame" x="0.0" y="534.5" width="94" height="66"/>
                                 <color key="backgroundColor" red="0.16470588235294117" green="0.17254901960784313" blue="0.19607843137254902" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="1">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YBD-Sn-vJc" customClass="CustomUIButton" customModule="Day01" customModuleProvider="target">
-                                <rect key="frame" x="94" y="556" width="93.5" height="55.5"/>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YBD-Sn-vJc">
+                                <rect key="frame" x="94" y="534.5" width="93.5" height="66"/>
                                 <color key="backgroundColor" red="0.16470588235294117" green="0.17254901960784313" blue="0.19607843137254902" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="2">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fby-PH-th7" customClass="CustomUIButton" customModule="Day01" customModuleProvider="target">
-                                <rect key="frame" x="187.5" y="556" width="94" height="55.5"/>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fby-PH-th7">
+                                <rect key="frame" x="187.5" y="534.5" width="94" height="66"/>
                                 <color key="backgroundColor" red="0.16470588235294117" green="0.17254901960784313" blue="0.19607843137254902" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="3">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wjE-iS-oJ6" customClass="CustomUIButton" customModule="Day01" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="501" width="94" height="55"/>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wjE-iS-oJ6">
+                                <rect key="frame" x="0.0" y="468" width="94" height="66.5"/>
                                 <color key="backgroundColor" red="0.16470588235294117" green="0.17254901960784313" blue="0.19607843137254902" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="4">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O2X-aY-s96" customClass="CustomUIButton" customModule="Day01" customModuleProvider="target">
-                                <rect key="frame" x="94" y="501" width="93.5" height="55"/>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O2X-aY-s96">
+                                <rect key="frame" x="94" y="468" width="93.5" height="66.5"/>
                                 <color key="backgroundColor" red="0.16470588235294117" green="0.17254901960784313" blue="0.19607843137254902" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="5">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AXo-zs-TYC" customClass="CustomUIButton" customModule="Day01" customModuleProvider="target">
-                                <rect key="frame" x="187.5" y="501" width="94" height="55"/>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AXo-zs-TYC">
+                                <rect key="frame" x="187.5" y="468" width="94" height="66.5"/>
                                 <color key="backgroundColor" red="0.16470588235294117" green="0.17254901960784313" blue="0.19607843137254902" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="6">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kHA-gK-ddU" customClass="CustomUIButton" customModule="Day01" customModuleProvider="target">
-                                <rect key="frame" x="281.5" y="501" width="93.5" height="55"/>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kHA-gK-ddU">
+                                <rect key="frame" x="281.5" y="468" width="93.5" height="66.5"/>
                                 <color key="backgroundColor" red="0.20784313725490194" green="0.21568627450980393" blue="0.27450980392156865" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="+">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rLL-0c-HxT" customClass="CustomUIButton" customModule="Day01" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="445" width="94" height="56"/>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rLL-0c-HxT">
+                                <rect key="frame" x="0.0" y="401" width="94" height="67"/>
                                 <color key="backgroundColor" red="0.16470588235294117" green="0.17254901960784313" blue="0.19607843137254902" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="7">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1eF-nQ-CDB" customClass="CustomUIButton" customModule="Day01" customModuleProvider="target">
-                                <rect key="frame" x="94" y="445" width="93.5" height="56"/>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1eF-nQ-CDB">
+                                <rect key="frame" x="94" y="401" width="93.5" height="67"/>
                                 <color key="backgroundColor" red="0.16470588235294117" green="0.17254901960784313" blue="0.19607843137254902" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="8">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="acA-ih-GPm" customClass="CustomUIButton" customModule="Day01" customModuleProvider="target">
-                                <rect key="frame" x="187.5" y="445" width="94" height="56"/>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="acA-ih-GPm">
+                                <rect key="frame" x="187.5" y="401" width="94" height="67"/>
                                 <color key="backgroundColor" red="0.16470588235294117" green="0.17254901960784313" blue="0.19607843137254902" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="9">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t6t-aL-GVo" customClass="CustomUIButton" customModule="Day01" customModuleProvider="target">
-                                <rect key="frame" x="281.5" y="445" width="93.5" height="56"/>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t6t-aL-GVo">
+                                <rect key="frame" x="281.5" y="401" width="93.5" height="67"/>
                                 <color key="backgroundColor" red="0.20784313725490194" green="0.21568627450980393" blue="0.27450980392156865" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="-">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YyF-EY-ICG" customClass="CustomUIButton" customModule="Day01" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="389.5" width="94" height="55.5"/>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YyF-EY-ICG">
+                                <rect key="frame" x="0.0" y="334" width="94" height="67"/>
                                 <color key="backgroundColor" red="0.20784313725490194" green="0.21568627450980393" blue="0.27450980392156865" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="AC">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K5P-rw-Can" customClass="CustomUIButton" customModule="Day01" customModuleProvider="target">
-                                <rect key="frame" x="94" y="389.5" width="93.5" height="55.5"/>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K5P-rw-Can">
+                                <rect key="frame" x="94" y="334" width="93.5" height="67"/>
                                 <color key="backgroundColor" red="0.20784313725490194" green="0.21568627450980393" blue="0.27450980392156865" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="+/-">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4QK-va-HKn" customClass="CustomUIButton" customModule="Day01" customModuleProvider="target">
-                                <rect key="frame" x="187.5" y="389.5" width="94" height="55.5"/>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4QK-va-HKn">
+                                <rect key="frame" x="187.5" y="334" width="94" height="67"/>
                                 <color key="backgroundColor" red="0.20784313725490194" green="0.21568627450980393" blue="0.27450980392156865" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="÷">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mIx-6z-OJI" customClass="CustomUIButton" customModule="Day01" customModuleProvider="target">
-                                <rect key="frame" x="281.5" y="389.5" width="93.5" height="55.5"/>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mIx-6z-OJI">
+                                <rect key="frame" x="281.5" y="334" width="93.5" height="67"/>
                                 <color key="backgroundColor" red="0.20784313725490194" green="0.21568627450980393" blue="0.27450980392156865" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="x">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DtI-5D-9HX" customClass="CustomUIButton" customModule="Day01" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="333.5" width="94" height="56"/>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DtI-5D-9HX">
+                                <rect key="frame" x="0.0" y="267" width="94" height="67"/>
                                 <color key="backgroundColor" red="0.16470588235294117" green="0.17254901960784313" blue="0.19607843137254902" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="mc">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FMj-1i-FNI" customClass="CustomUIButton" customModule="Day01" customModuleProvider="target">
-                                <rect key="frame" x="94" y="333.5" width="93.5" height="56"/>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FMj-1i-FNI">
+                                <rect key="frame" x="94" y="267" width="93.5" height="67"/>
                                 <color key="backgroundColor" red="0.16470588235294117" green="0.17254901960784313" blue="0.19607843137254902" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="mr">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bag-82-h7b" customClass="CustomUIButton" customModule="Day01" customModuleProvider="target">
-                                <rect key="frame" x="187.5" y="333.5" width="94" height="56"/>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bag-82-h7b">
+                                <rect key="frame" x="187.5" y="267" width="94" height="67"/>
                                 <color key="backgroundColor" red="0.16470588235294117" green="0.17254901960784313" blue="0.19607843137254902" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="m+">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uSO-Dv-3ka" customClass="CustomUIButton" customModule="Day01" customModuleProvider="target">
-                                <rect key="frame" x="281.5" y="333.5" width="93.5" height="56"/>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uSO-Dv-3ka">
+                                <rect key="frame" x="281.5" y="267" width="93.5" height="67"/>
                                 <color key="backgroundColor" red="0.16470588235294117" green="0.17254901960784313" blue="0.19607843137254902" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="m-">
@@ -580,33 +580,49 @@
                                 </state>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalCentering" alignment="bottom" translatesAutoresizingMaskIntoConstraints="NO" id="aOo-Za-kG0">
-                                <rect key="frame" x="303" y="64" width="56" height="259.5"/>
+                                <rect key="frame" x="10" y="64" width="349" height="193"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="258-Km-sOR" userLabel="Space">
-                                        <rect key="frame" x="14" y="0.0" width="42" height="20.5"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="258-Km-sOR" userLabel="Space">
+                                        <rect key="frame" x="307" y="0.0" width="42" height="21.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4qp-9u-oTE" userLabel="Output">
-                                        <rect key="frame" x="0.0" y="72.5" width="56" height="114.5"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="1000" verticalCompressionResistancePriority="1000" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="4qp-9u-oTE" userLabel="Output">
+                                        <rect key="frame" x="304.5" y="50.5" width="44.5" height="92"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="100"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
+                                        <variation key="widthClass=compact">
+                                            <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="80"/>
+                                        </variation>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gtn-Gq-OrX" userLabel="Expression">
-                                        <rect key="frame" x="50.5" y="238.5" width="5.5" height="21"/>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="18"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="Gtn-Gq-OrX" userLabel="Expression">
+                                        <rect key="frame" x="338" y="171.5" width="11" height="21.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="258-Km-sOR" firstAttribute="height" secondItem="Gtn-Gq-OrX" secondAttribute="height" id="RRF-DJ-aoz"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="RRF-DJ-aoz"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="RRF-DJ-aoz"/>
+                                    </mask>
+                                </variation>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" red="0.20784313730000001" green="0.2156862745" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="uSO-Dv-3ka" firstAttribute="trailing" secondItem="mIx-6z-OJI" secondAttribute="trailing" id="1aw-YT-9Ph"/>
-                            <constraint firstItem="DtI-5D-9HX" firstAttribute="top" secondItem="jFr-SS-aEv" secondAttribute="top" multiplier="0.5" id="1dZ-mv-PDV"/>
+                            <constraint firstItem="DtI-5D-9HX" firstAttribute="top" secondItem="jFr-SS-aEv" secondAttribute="top" multiplier="0.4" id="1dZ-mv-PDV"/>
                             <constraint firstItem="1eF-nQ-CDB" firstAttribute="trailing" secondItem="O2X-aY-s96" secondAttribute="trailing" id="32K-SL-g8V"/>
                             <constraint firstItem="Bag-82-h7b" firstAttribute="trailing" secondItem="4QK-va-HKn" secondAttribute="trailing" id="3VF-dY-r3B"/>
                             <constraint firstItem="kHA-gK-ddU" firstAttribute="bottom" secondItem="AXo-zs-TYC" secondAttribute="bottom" id="3yK-zT-XbN"/>
@@ -642,6 +658,7 @@
                             <constraint firstItem="O2X-aY-s96" firstAttribute="leading" secondItem="wjE-iS-oJ6" secondAttribute="trailing" id="J4t-Vd-fcg"/>
                             <constraint firstItem="K5P-rw-Can" firstAttribute="trailing" secondItem="1eF-nQ-CDB" secondAttribute="trailing" id="KfW-u9-xVA"/>
                             <constraint firstItem="DtI-5D-9HX" firstAttribute="top" secondItem="aOo-Za-kG0" secondAttribute="bottomMargin" constant="10" id="LVE-yv-XsL"/>
+                            <constraint firstItem="aOo-Za-kG0" firstAttribute="leading" secondItem="i2d-7o-3GW" secondAttribute="leading" constant="10" id="M9S-FX-IsM"/>
                             <constraint firstItem="K5P-rw-Can" firstAttribute="leading" secondItem="YyF-EY-ICG" secondAttribute="trailing" id="MEh-35-YEe"/>
                             <constraint firstItem="1eF-nQ-CDB" firstAttribute="leading" secondItem="O2X-aY-s96" secondAttribute="leading" id="NxW-67-CVH"/>
                             <constraint firstItem="YBD-Sn-vJc" firstAttribute="top" secondItem="QgV-eM-U7O" secondAttribute="top" id="OAI-z6-rjp"/>
@@ -700,11 +717,42 @@
                             <constraint firstItem="aOo-Za-kG0" firstAttribute="top" secondItem="cvP-PE-8aZ" secondAttribute="bottom" id="yhr-4c-aJi"/>
                             <constraint firstItem="4QK-va-HKn" firstAttribute="leading" secondItem="acA-ih-GPm" secondAttribute="leading" id="zej-ox-9xb"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="M9S-FX-IsM"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="M9S-FX-IsM"/>
+                            </mask>
+                        </variation>
                     </view>
                     <connections>
                         <outlet property="expressionLabel" destination="Gtn-Gq-OrX" id="6bf-LE-kv8"/>
                         <outlet property="outputLabel" destination="4qp-9u-oTE" id="yBO-Gg-uCy"/>
                         <outletCollection property="calculatorButtons" destination="4QK-va-HKn" collectionClass="NSMutableArray" id="HRf-GF-Wrl"/>
+                        <outletCollection property="calculatorButtons" destination="DtI-5D-9HX" collectionClass="NSMutableArray" id="oP2-Mf-tFr"/>
+                        <outletCollection property="calculatorButtons" destination="FMj-1i-FNI" collectionClass="NSMutableArray" id="r2G-S1-cjI"/>
+                        <outletCollection property="calculatorButtons" destination="Bag-82-h7b" collectionClass="NSMutableArray" id="pLz-k6-eHo"/>
+                        <outletCollection property="calculatorButtons" destination="uSO-Dv-3ka" collectionClass="NSMutableArray" id="N9d-UK-4ca"/>
+                        <outletCollection property="calculatorButtons" destination="YyF-EY-ICG" collectionClass="NSMutableArray" id="04f-7Y-Isl"/>
+                        <outletCollection property="calculatorButtons" destination="K5P-rw-Can" collectionClass="NSMutableArray" id="aEj-EZ-e7S"/>
+                        <outletCollection property="calculatorButtons" destination="mIx-6z-OJI" collectionClass="NSMutableArray" id="Y3d-wa-idQ"/>
+                        <outletCollection property="calculatorButtons" destination="rLL-0c-HxT" collectionClass="NSMutableArray" id="z3e-XZ-DSc"/>
+                        <outletCollection property="calculatorButtons" destination="1eF-nQ-CDB" collectionClass="NSMutableArray" id="vkh-KA-ij2"/>
+                        <outletCollection property="calculatorButtons" destination="acA-ih-GPm" collectionClass="NSMutableArray" id="b3B-dc-BeR"/>
+                        <outletCollection property="calculatorButtons" destination="t6t-aL-GVo" collectionClass="NSMutableArray" id="wLC-Ya-ICB"/>
+                        <outletCollection property="calculatorButtons" destination="wjE-iS-oJ6" collectionClass="NSMutableArray" id="5dd-03-BSg"/>
+                        <outletCollection property="calculatorButtons" destination="O2X-aY-s96" collectionClass="NSMutableArray" id="DK8-H0-RDk"/>
+                        <outletCollection property="calculatorButtons" destination="AXo-zs-TYC" collectionClass="NSMutableArray" id="3Kj-Fd-5Ok"/>
+                        <outletCollection property="calculatorButtons" destination="kHA-gK-ddU" collectionClass="NSMutableArray" id="uHY-nd-jf1"/>
+                        <outletCollection property="calculatorButtons" destination="QgV-eM-U7O" collectionClass="NSMutableArray" id="zhf-nB-68g"/>
+                        <outletCollection property="calculatorButtons" destination="YBD-Sn-vJc" collectionClass="NSMutableArray" id="AWJ-e1-X3r"/>
+                        <outletCollection property="calculatorButtons" destination="Fby-PH-th7" collectionClass="NSMutableArray" id="ujZ-ud-RHQ"/>
+                        <outletCollection property="calculatorButtons" destination="AqD-by-2m9" collectionClass="NSMutableArray" id="84Q-XP-18A"/>
+                        <outletCollection property="calculatorButtons" destination="mRv-cY-Xqa" collectionClass="NSMutableArray" id="DGZ-HG-318"/>
+                        <outletCollection property="calculatorButtons" destination="qLS-J0-wRB" collectionClass="NSMutableArray" id="azh-7n-pha"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2dC-NE-Sqq" userLabel="First Responder" sceneMemberID="firstResponder"/>
