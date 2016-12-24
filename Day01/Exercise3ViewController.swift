@@ -12,13 +12,12 @@ class Exercise3ViewController: UIViewController {
     
     // Outlets
     @IBOutlet weak var expressionLabel: UILabel!
-    
     @IBOutlet weak var outputLabel: UILabel!
-    var outputValue: Double = 0 {
-        didSet { updateOutput() }
-    }
-    
+    var outputValue: Double = 0 { didSet { updateOutput() }}
     @IBOutlet var calculatorButtons: [UIButton]!
+    
+    @IBOutlet weak var mrButton: UIButton!
+    @IBOutlet weak var mcButton: UIButton!
     
     // Types
     enum CharacterType {
@@ -29,7 +28,8 @@ class Exercise3ViewController: UIViewController {
     var currentType: CharacterType = .numbers
     var characters = ["0"]
     var usedAC = false
-    var usedEqual = true
+    var usedEqual = false
+    var memory: Double? = nil
     
     // Functions
     override func viewDidLoad() {
@@ -55,35 +55,59 @@ class Exercise3ViewController: UIViewController {
         guard let button = sender as? UIButton else { return }
         let text = button.title(for: .normal)!
         
-        if text == "=" {
-            tappedEqual()
-        } else {
-            usedEqual = false
-        }
+        if text == "=" { tappedEqual() } else { usedEqual = false }
+        if text == "AC" { tappedAC() } else { usedAC = false }
+        if text == "+/-" { tappedPositiveNegative() }
+        if text == "." { tappedDecimal() }
         
-        if text == "AC" {
-            tappedAC()
-        } else {
-            usedAC = false
-        }
+        if isNumber(text) { tappedNumber(text) }
+        if isOperator(text) { tappedOperator(text) }
         
-        if text == "+/-" {
-            tappedPositiveNegative()
-        }
-        
-        if text == "." {
-            tappedDecimal()
-        }
-        
-        if isNumber(text) {
-            tappedNumber(text)
-        }
-        
-        if isOperator(text) {
-            tappedOperator(text)
-        }
-        
+        if text == "mc" { tappedMC() }
+        if text == "mr" { tappedMR() }
+        if text == "m-" { tappedMSubtract() }
+        if text == "m+" { tappedMAdd() }
+    
         updateExpression()
+    }
+    
+    func tappedMSubtract() {
+        if memory == nil {
+            mrButton.backgroundColor = .white
+            mrButton.setTitleColor(.black, for: .normal)
+        }
+        
+        memory = (memory == nil) ? -outputValue : memory! - outputValue
+    }
+    
+    func tappedMAdd() {
+        if memory == nil {
+            mrButton.backgroundColor = .white
+            mrButton.setTitleColor(.black, for: .normal)
+        }
+        
+        memory = (memory == nil) ? outputValue : memory! + outputValue
+    }
+    
+    func tappedMR() {
+        guard memory != nil else { return }
+        outputValue = memory!
+        
+        if currentType == .operators {
+            characters.append(outputToString())
+        } else if currentType == .equal {
+            characters.removeAll()
+            characters.append(outputToString())
+        } else {
+            characters[characters.count - 1] = outputToString()
+        }
+        currentType = .numbers
+    }
+    
+    func tappedMC() {
+        memory = nil
+        mrButton.backgroundColor = mcButton.backgroundColor
+        mrButton.setTitleColor(mcButton.titleColor(for: .normal), for: .normal)
     }
     
     func tappedDecimal() {
