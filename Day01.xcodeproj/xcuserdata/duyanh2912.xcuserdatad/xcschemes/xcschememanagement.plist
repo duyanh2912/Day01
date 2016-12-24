@@ -9,10 +9,35 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>IBDesignables.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>Utils.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>500B58A21E0EFFF000A0B540</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>50BEE6081E0C131D00C58593</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>50C3AE1D1E0F07F300DE4228</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>50C3AE381E0F083D00DE4228</key>
 		<dict>
 			<key>primary</key>
 			<true/>
