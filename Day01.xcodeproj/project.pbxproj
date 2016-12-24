@@ -19,23 +19,23 @@
 		50C3AE221E0F07F400DE4228 /* IBDesignables.h in Headers */ = {isa = PBXBuildFile; fileRef = 50C3AE201E0F07F400DE4228 /* IBDesignables.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		50C3AE251E0F07F400DE4228 /* IBDesignables.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50C3AE1E1E0F07F300DE4228 /* IBDesignables.framework */; };
 		50C3AE261E0F07F400DE4228 /* IBDesignables.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 50C3AE1E1E0F07F300DE4228 /* IBDesignables.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		50C3AE301E0F080C00DE4228 /* GifUIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C3AE2B1E0F080C00DE4228 /* GifUIImageView.swift */; };
-		50C3AE311E0F080C00DE4228 /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C3AE2C1E0F080C00DE4228 /* UIButton.swift */; };
-		50C3AE321E0F080C00DE4228 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C3AE2D1E0F080C00DE4228 /* UIImageView.swift */; };
-		50C3AE331E0F080C00DE4228 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C3AE2E1E0F080C00DE4228 /* UIView.swift */; };
 		50C3AE3D1E0F083D00DE4228 /* Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 50C3AE3B1E0F083D00DE4228 /* Utils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		50C3AE401E0F083D00DE4228 /* Utils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50C3AE391E0F083D00DE4228 /* Utils.framework */; };
 		50C3AE411E0F083D00DE4228 /* Utils.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 50C3AE391E0F083D00DE4228 /* Utils.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		50C3AE511E0F084B00DE4228 /* CGFloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C3AE451E0F084B00DE4228 /* CGFloat.swift */; };
-		50C3AE521E0F084B00DE4228 /* CGPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C3AE461E0F084B00DE4228 /* CGPoint.swift */; };
-		50C3AE531E0F084B00DE4228 /* CGRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C3AE471E0F084B00DE4228 /* CGRect.swift */; };
-		50C3AE541E0F084B00DE4228 /* CGSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C3AE481E0F084B00DE4228 /* CGSize.swift */; };
-		50C3AE551E0F084B00DE4228 /* CGVector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C3AE491E0F084B00DE4228 /* CGVector.swift */; };
-		50C3AE561E0F084B00DE4228 /* GKGraphNode2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C3AE4B1E0F084B00DE4228 /* GKGraphNode2D.swift */; };
-		50C3AE571E0F084B00DE4228 /* SKNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C3AE4D1E0F084B00DE4228 /* SKNode.swift */; };
-		50C3AE581E0F084B00DE4228 /* SKSpriteNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C3AE4E1E0F084B00DE4228 /* SKSpriteNode.swift */; };
-		50C3AE591E0F084B00DE4228 /* SKTextureAtlas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C3AE4F1E0F084B00DE4228 /* SKTextureAtlas.swift */; };
-		50C3AE5A1E0F085D00DE4228 /* IBDesignables.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50C3AE1E1E0F07F300DE4228 /* IBDesignables.framework */; };
+		50C3AE941E0F13BA00DE4228 /* CGFloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C3AE891E0F13BA00DE4228 /* CGFloat.swift */; };
+		50C3AE951E0F13BA00DE4228 /* CGPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C3AE8A1E0F13BA00DE4228 /* CGPoint.swift */; };
+		50C3AE961E0F13BA00DE4228 /* CGRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C3AE8B1E0F13BA00DE4228 /* CGRect.swift */; };
+		50C3AE971E0F13BA00DE4228 /* CGSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C3AE8C1E0F13BA00DE4228 /* CGSize.swift */; };
+		50C3AE981E0F13BA00DE4228 /* CGVector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C3AE8D1E0F13BA00DE4228 /* CGVector.swift */; };
+		50C3AE991E0F13BA00DE4228 /* GKGraphNode2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C3AE8F1E0F13BA00DE4228 /* GKGraphNode2D.swift */; };
+		50C3AE9A1E0F13BA00DE4228 /* SKNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C3AE911E0F13BA00DE4228 /* SKNode.swift */; };
+		50C3AE9B1E0F13BA00DE4228 /* SKSpriteNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C3AE921E0F13BA00DE4228 /* SKSpriteNode.swift */; };
+		50C3AE9C1E0F13BA00DE4228 /* SKTextureAtlas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C3AE931E0F13BA00DE4228 /* SKTextureAtlas.swift */; };
+		50C3AEA21E0F13DA00DE4228 /* GifUIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C3AE9E1E0F13DA00DE4228 /* GifUIImageView.swift */; };
+		50C3AEA31E0F13DA00DE4228 /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C3AE9F1E0F13DA00DE4228 /* UIButton.swift */; };
+		50C3AEA41E0F13DA00DE4228 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C3AEA01E0F13DA00DE4228 /* UIImageView.swift */; };
+		50C3AEA51E0F13DA00DE4228 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C3AEA11E0F13DA00DE4228 /* UIView.swift */; };
+		50C3AEA61E0F148F00DE4228 /* Utils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50C3AE391E0F083D00DE4228 /* Utils.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,23 +85,23 @@
 		50C3AE1E1E0F07F300DE4228 /* IBDesignables.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IBDesignables.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		50C3AE201E0F07F400DE4228 /* IBDesignables.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IBDesignables.h; sourceTree = "<group>"; };
 		50C3AE211E0F07F400DE4228 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		50C3AE2B1E0F080C00DE4228 /* GifUIImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GifUIImageView.swift; sourceTree = "<group>"; };
-		50C3AE2C1E0F080C00DE4228 /* UIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
-		50C3AE2D1E0F080C00DE4228 /* UIImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
-		50C3AE2E1E0F080C00DE4228 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		50C3AE391E0F083D00DE4228 /* Utils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Utils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		50C3AE3B1E0F083D00DE4228 /* Utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
 		50C3AE3C1E0F083D00DE4228 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		50C3AE451E0F084B00DE4228 /* CGFloat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGFloat.swift; sourceTree = "<group>"; };
-		50C3AE461E0F084B00DE4228 /* CGPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGPoint.swift; sourceTree = "<group>"; };
-		50C3AE471E0F084B00DE4228 /* CGRect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGRect.swift; sourceTree = "<group>"; };
-		50C3AE481E0F084B00DE4228 /* CGSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGSize.swift; sourceTree = "<group>"; };
-		50C3AE491E0F084B00DE4228 /* CGVector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGVector.swift; sourceTree = "<group>"; };
-		50C3AE4B1E0F084B00DE4228 /* GKGraphNode2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GKGraphNode2D.swift; sourceTree = "<group>"; };
-		50C3AE4D1E0F084B00DE4228 /* SKNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKNode.swift; sourceTree = "<group>"; };
-		50C3AE4E1E0F084B00DE4228 /* SKSpriteNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKSpriteNode.swift; sourceTree = "<group>"; };
-		50C3AE4F1E0F084B00DE4228 /* SKTextureAtlas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKTextureAtlas.swift; sourceTree = "<group>"; };
 		50C3AE5D1E0F0A5000DE4228 /* Day01-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Day01-Bridging-Header.h"; sourceTree = "<group>"; };
+		50C3AE891E0F13BA00DE4228 /* CGFloat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGFloat.swift; sourceTree = "<group>"; };
+		50C3AE8A1E0F13BA00DE4228 /* CGPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGPoint.swift; sourceTree = "<group>"; };
+		50C3AE8B1E0F13BA00DE4228 /* CGRect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGRect.swift; sourceTree = "<group>"; };
+		50C3AE8C1E0F13BA00DE4228 /* CGSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGSize.swift; sourceTree = "<group>"; };
+		50C3AE8D1E0F13BA00DE4228 /* CGVector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGVector.swift; sourceTree = "<group>"; };
+		50C3AE8F1E0F13BA00DE4228 /* GKGraphNode2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GKGraphNode2D.swift; sourceTree = "<group>"; };
+		50C3AE911E0F13BA00DE4228 /* SKNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKNode.swift; sourceTree = "<group>"; };
+		50C3AE921E0F13BA00DE4228 /* SKSpriteNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKSpriteNode.swift; sourceTree = "<group>"; };
+		50C3AE931E0F13BA00DE4228 /* SKTextureAtlas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKTextureAtlas.swift; sourceTree = "<group>"; };
+		50C3AE9E1E0F13DA00DE4228 /* GifUIImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GifUIImageView.swift; sourceTree = "<group>"; };
+		50C3AE9F1E0F13DA00DE4228 /* UIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
+		50C3AEA01E0F13DA00DE4228 /* UIImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
+		50C3AEA11E0F13DA00DE4228 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50C3AEA61E0F148F00DE4228 /* Utils.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,7 +126,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50C3AE5A1E0F085D00DE4228 /* IBDesignables.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,68 +173,64 @@
 		50C3AE1F1E0F07F300DE4228 /* IBDesignables */ = {
 			isa = PBXGroup;
 			children = (
-				50C3AE2F1E0F080C00DE4228 /* UIKit */,
+				50C3AE9D1E0F13DA00DE4228 /* UIKit */,
 				50C3AE201E0F07F400DE4228 /* IBDesignables.h */,
 				50C3AE211E0F07F400DE4228 /* Info.plist */,
 			);
 			path = IBDesignables;
 			sourceTree = "<group>";
 		};
-		50C3AE2F1E0F080C00DE4228 /* UIKit */ = {
-			isa = PBXGroup;
-			children = (
-				50C3AE2B1E0F080C00DE4228 /* GifUIImageView.swift */,
-				50C3AE2C1E0F080C00DE4228 /* UIButton.swift */,
-				50C3AE2D1E0F080C00DE4228 /* UIImageView.swift */,
-				50C3AE2E1E0F080C00DE4228 /* UIView.swift */,
-			);
-			name = UIKit;
-			path = ../../../Utils/Utils/UIKit;
-			sourceTree = "<group>";
-		};
 		50C3AE3A1E0F083D00DE4228 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				50C3AE881E0F13BA00DE4228 /* CoreGraphics */,
+				50C3AE8E1E0F13BA00DE4228 /* GameplayKit */,
+				50C3AE901E0F13BA00DE4228 /* SpriteKit */,
 				50C3AE3B1E0F083D00DE4228 /* Utils.h */,
 				50C3AE3C1E0F083D00DE4228 /* Info.plist */,
-				50C3AE4A1E0F084B00DE4228 /* CoreGraphics */,
-				50C3AE4C1E0F084B00DE4228 /* GameplayKit */,
-				50C3AE501E0F084B00DE4228 /* SpriteKit */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
 		};
-		50C3AE4A1E0F084B00DE4228 /* CoreGraphics */ = {
+		50C3AE881E0F13BA00DE4228 /* CoreGraphics */ = {
 			isa = PBXGroup;
 			children = (
-				50C3AE451E0F084B00DE4228 /* CGFloat.swift */,
-				50C3AE461E0F084B00DE4228 /* CGPoint.swift */,
-				50C3AE471E0F084B00DE4228 /* CGRect.swift */,
-				50C3AE481E0F084B00DE4228 /* CGSize.swift */,
-				50C3AE491E0F084B00DE4228 /* CGVector.swift */,
+				50C3AE891E0F13BA00DE4228 /* CGFloat.swift */,
+				50C3AE8A1E0F13BA00DE4228 /* CGPoint.swift */,
+				50C3AE8B1E0F13BA00DE4228 /* CGRect.swift */,
+				50C3AE8C1E0F13BA00DE4228 /* CGSize.swift */,
+				50C3AE8D1E0F13BA00DE4228 /* CGVector.swift */,
 			);
-			name = CoreGraphics;
-			path = ../../../Utils/Utils/CoreGraphics;
+			path = CoreGraphics;
 			sourceTree = "<group>";
 		};
-		50C3AE4C1E0F084B00DE4228 /* GameplayKit */ = {
+		50C3AE8E1E0F13BA00DE4228 /* GameplayKit */ = {
 			isa = PBXGroup;
 			children = (
-				50C3AE4B1E0F084B00DE4228 /* GKGraphNode2D.swift */,
+				50C3AE8F1E0F13BA00DE4228 /* GKGraphNode2D.swift */,
 			);
-			name = GameplayKit;
-			path = ../../../Utils/Utils/GameplayKit;
+			path = GameplayKit;
 			sourceTree = "<group>";
 		};
-		50C3AE501E0F084B00DE4228 /* SpriteKit */ = {
+		50C3AE901E0F13BA00DE4228 /* SpriteKit */ = {
 			isa = PBXGroup;
 			children = (
-				50C3AE4D1E0F084B00DE4228 /* SKNode.swift */,
-				50C3AE4E1E0F084B00DE4228 /* SKSpriteNode.swift */,
-				50C3AE4F1E0F084B00DE4228 /* SKTextureAtlas.swift */,
+				50C3AE911E0F13BA00DE4228 /* SKNode.swift */,
+				50C3AE921E0F13BA00DE4228 /* SKSpriteNode.swift */,
+				50C3AE931E0F13BA00DE4228 /* SKTextureAtlas.swift */,
 			);
-			name = SpriteKit;
-			path = ../../../Utils/Utils/SpriteKit;
+			path = SpriteKit;
+			sourceTree = "<group>";
+		};
+		50C3AE9D1E0F13DA00DE4228 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				50C3AE9E1E0F13DA00DE4228 /* GifUIImageView.swift */,
+				50C3AE9F1E0F13DA00DE4228 /* UIButton.swift */,
+				50C3AEA01E0F13DA00DE4228 /* UIImageView.swift */,
+				50C3AEA11E0F13DA00DE4228 /* UIView.swift */,
+			);
+			path = UIKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -408,10 +404,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50C3AE331E0F080C00DE4228 /* UIView.swift in Sources */,
-				50C3AE301E0F080C00DE4228 /* GifUIImageView.swift in Sources */,
-				50C3AE321E0F080C00DE4228 /* UIImageView.swift in Sources */,
-				50C3AE311E0F080C00DE4228 /* UIButton.swift in Sources */,
+				50C3AEA51E0F13DA00DE4228 /* UIView.swift in Sources */,
+				50C3AEA21E0F13DA00DE4228 /* GifUIImageView.swift in Sources */,
+				50C3AEA41E0F13DA00DE4228 /* UIImageView.swift in Sources */,
+				50C3AEA31E0F13DA00DE4228 /* UIButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,15 +415,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50C3AE591E0F084B00DE4228 /* SKTextureAtlas.swift in Sources */,
-				50C3AE581E0F084B00DE4228 /* SKSpriteNode.swift in Sources */,
-				50C3AE541E0F084B00DE4228 /* CGSize.swift in Sources */,
-				50C3AE521E0F084B00DE4228 /* CGPoint.swift in Sources */,
-				50C3AE551E0F084B00DE4228 /* CGVector.swift in Sources */,
-				50C3AE531E0F084B00DE4228 /* CGRect.swift in Sources */,
-				50C3AE571E0F084B00DE4228 /* SKNode.swift in Sources */,
-				50C3AE561E0F084B00DE4228 /* GKGraphNode2D.swift in Sources */,
-				50C3AE511E0F084B00DE4228 /* CGFloat.swift in Sources */,
+				50C3AE9C1E0F13BA00DE4228 /* SKTextureAtlas.swift in Sources */,
+				50C3AE9B1E0F13BA00DE4228 /* SKSpriteNode.swift in Sources */,
+				50C3AE971E0F13BA00DE4228 /* CGSize.swift in Sources */,
+				50C3AE951E0F13BA00DE4228 /* CGPoint.swift in Sources */,
+				50C3AE981E0F13BA00DE4228 /* CGVector.swift in Sources */,
+				50C3AE961E0F13BA00DE4228 /* CGRect.swift in Sources */,
+				50C3AE9A1E0F13BA00DE4228 /* SKNode.swift in Sources */,
+				50C3AE991E0F13BA00DE4228 /* GKGraphNode2D.swift in Sources */,
+				50C3AE941E0F13BA00DE4228 /* CGFloat.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -716,6 +712,7 @@
 				50C3AE291E0F07F400DE4228 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		50C3AE421E0F083D00DE4228 /* Build configuration list for PBXNativeTarget "Utils" */ = {
 			isa = XCConfigurationList;
@@ -724,6 +721,7 @@
 				50C3AE441E0F083D00DE4228 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
